@@ -95,6 +95,49 @@ main blockquote {
   font-style: italic;
 }
 
+/*body styling*/
+.details {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.details article {
+  width: 60%;
+  font-size: 14px;
+}
+
+.details article h3 {
+  background: var(--bg-primary);
+  padding: 4px 8px;
+  border-radius: 5px;
+  color: var(--font-primary);
+  width: fit-content;
+  margin-bottom: 10px;
+}
+
+.details article a {
+  text-decoration: none;
+  color: var(--font-primary);
+  transition: color 0.3s ease;
+}
+
+.details article a:hover {
+  color: var(--font-secondary);
+}
+
+.progressbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.progressbar label {
+  font-size: 18px;
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+
 /*footer styling*/
 hr {
   color: var(--font-primary);
