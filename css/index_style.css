@@ -72,6 +72,10 @@ main h1 {
   font-size: 42px;
 }
 
+main h1 span {
+  color: var(--font-secondary);
+}
+
 main h2 {
   font-weight: 800;
   font-size: 32px;
@@ -92,3 +96,33 @@ main blockquote {
 }
 
 /*footer styling*/
+hr {
+  color: var(--font-primary);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--bg-primary);
+}
+
+footer p {
+  padding: 40px 0 20px;
+  color: var(--bg-secondary);
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--font-primary);
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: var(--font-secondary);
+}
+
+footer a:last-child {
+  padding: 14px 0 28px;
+}
