@@ -28,7 +28,7 @@ header .logo {
 
 header .navbar {
   display: flex;
-  margin-left: -40px;
+  margin-left: -120px;
   align-self: center;
   gap: 18px;
 }
