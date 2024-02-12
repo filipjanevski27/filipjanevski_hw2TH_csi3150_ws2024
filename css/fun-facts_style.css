@@ -69,6 +69,7 @@ main {
 h1 {
   font-weight: 900;
   font-size: 42px;
+  margin-bottom: 40px;
 }
 
 h3 {
@@ -78,6 +79,70 @@ h3 {
   width: fit-content;
   align-self: center;
   color: var(--font-primary);
+}
+
+.book,
+.song,
+.show {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px 40px;
+}
+
+.book p {
+  width: 60%;
+  text-align: center;
+}
+
+.book p a {
+  text-decoration: none;
+  color: var(--font-primary);
+  transition: color 0.3s ease;
+}
+
+.book p a:hover {
+  color: var(--font-secondary);
+}
+
+.book aside img {
+  width: 200px;
+}
+
+.song p {
+  width: 60%;
+  text-align: center;
+}
+
+.song p a {
+  text-decoration: none;
+  color: var(--font-primary);
+  transition: color 0.3s ease;
+}
+
+.song p a:hover {
+  color: var(--font-secondary);
+}
+
+.show p {
+  width: 60%;
+  text-align: center;
+}
+
+.show p a {
+  text-decoration: none;
+  color: var(--font-primary);
+  transition: color 0.3s ease;
+}
+
+.show p a:hover {
+  color: var(--font-secondary);
+}
+
+.show aside iframe {
+  width: 480px;
+  height: 300px;
+  border: 0px;
 }
 
 /*footer styling*/
