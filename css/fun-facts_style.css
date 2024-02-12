@@ -56,6 +56,30 @@ header button:hover {
   color: var(--font-secondary);
 }
 
+/*body styling*/
+main {
+  background: var(--bg-secondary);
+  padding: 40px 25px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 42px;
+}
+
+h3 {
+  background: var(--bg-primary);
+  padding: 4px 8px;
+  border-radius: 5px;
+  width: fit-content;
+  align-self: center;
+  color: var(--font-primary);
+}
+
 /*footer styling*/
 hr {
   color: var(--font-primary);

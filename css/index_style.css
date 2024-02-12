@@ -95,7 +95,7 @@ main blockquote {
   font-style: italic;
 }
 
-/*body styling*/
+/*details styling*/
 .details {
   display: flex;
   justify-content: space-evenly;

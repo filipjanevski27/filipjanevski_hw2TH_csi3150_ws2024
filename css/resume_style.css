@@ -56,6 +56,123 @@ header button:hover {
   color: var(--font-secondary);
 }
 
+/*body styling*/
+main {
+  background: var(--bg-secondary);
+  padding: 40px 25px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main h1 {
+  font-weight: 900;
+  font-size: 42px;
+}
+
+main h2 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.objective {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.objective h4 {
+  background: var(--bg-primary);
+  padding: 4px 8px;
+  border-radius: 5px;
+  color: var(--font-primary);
+}
+
+.objective p {
+  text-align: center;
+  width: 60%;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.proexp {
+  display: flex;
+  flex-direction: column;
+}
+
+.proexp h4 {
+  background: var(--bg-primary);
+  padding: 4px 8px;
+  border-radius: 5px;
+  width: fit-content;
+  align-self: center;
+  color: var(--font-primary);
+}
+
+.proexp section {
+  display: flex;
+  flex-direction: column;
+  align-self: auto;
+  justify-self: left;
+  margin: 12px 0;
+  width: 95%;
+}
+
+.proexp section h5 {
+  font-size: 15px;
+}
+
+.extras {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.eduexp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+}
+
+.eduexp h4 {
+  background: var(--bg-primary);
+  padding: 4px 8px;
+  border-radius: 5px;
+  width: fit-content;
+  align-self: center;
+  color: var(--font-primary);
+  margin-bottom: 5px;
+}
+
+table,
+td {
+  border: 1px solid;
+  text-align: center;
+}
+
+.extracurricular {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.extracurricular h4 {
+  background: var(--bg-primary);
+  padding: 4px 8px;
+  border-radius: 5px;
+  width: fit-content;
+  color: var(--font-primary);
+  margin-bottom: 5px;
+}
+
+.extracurricular p {
+  text-align: center;
+}
+
 /*footer styling*/
 hr {
   color: var(--font-primary);
